@@ -1,0 +1,154 @@
+.header{
+    height:60px;
+    display: flex;
+    align-items: center;
+    background-color: #0F1111;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    margin-top: 18px;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    border-radius: 24px;
+}
+.header_searchInput{
+    height: 40px;
+    padding: 10px;
+    border-radius: 4px 0px 0px 4px;
+    border:none;
+    width:100%;
+}
+.header_search_icon{
+    padding: 5px;
+    height: 40px;
+    width: 40px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgba(238, 165, 9, 0.959);
+}
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+.header_option{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    
+}
+.header_optionLineone{
+    font-size: 12px;
+}
+.header_optionLinetwo{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+.header_basketCount{
+   margin-left: 10px;
+   margin-right: 10px;
+  
+}
+.header_optionBasket{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+/*----------HEader Line Two---------------------------------------------------------------------------- */
+
+.header1{
+    display: flex;
+    
+    align-items: center;
+    height: 39px;
+    width: 100%;
+    padding-top: 0;
+    background-color: #232f3e;
+    position:sticky;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar {
+    font-family: inherit;
+    font-size: 12px;
+    line-height: 1em;
+}
+.nav_left{
+    display: flex;
+    float: none;
+    width: auto;
+    margin-left: 15px;
+}
+.hm_icon{
+    color: white;
+}
+a{
+    text-decoration: none;
+}
+.hm_icon_label{
+   color: white;
+   font-size: 15px;
+   font-weight: 600;
+   font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.nav_right{
+    margin-left: 15px;
+    font-family:'Source Sans Pro', sans-serif;;
+}
+.header_optionLinethree{
+    font-size: 14px;
+    font-weight: 700;
+}
+#nav-hamburger-menu{
+    display: flex;
+    justify-content: center;
+}
+.icon_line{
+    width:18px;
+    height: 2px;
+    background-color: white;
+    margin-top: 4px;
+}
+.hm_icon_{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+@media only screen and (max-width: 1024px) {
+    .header{
+        height: 40px;
+    }
+    .header_logo{
+        width: 70px;
+        margin: 0 10px;
+        margin-top: 10px;
+    }
+    .header_search{
+        margin-right: 5px;
+    }
+    .header_searchInput{
+        height: 30px;
+        padding: 8px;
+    }
+    .header_search_icon{
+        padding: 2px;
+        height: 30px;
+        width: 30px;
+    }
+    
+
+  }

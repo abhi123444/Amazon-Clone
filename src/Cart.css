@@ -1,0 +1,40 @@
+.checkout{
+    display: flex;
+    padding: 15px;
+    background-color: rgb(247, 242, 247);
+    height: max-content;
+}
+.checkout_left{
+    width: 100%;
+    margin-right: 20px;
+    background-color: white;
+}
+.checkout_head{
+    height: 100px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border-bottom: 1px solid lightgray;
+}
+.checkout_title{
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 26px;
+    font-weight: 500;
+    
+}
+.deselect_link{
+    padding-left: 15px;
+    color: rgb(6, 122, 126);
+    font-size: 14px;
+    font-weight: 600;
+}
+.checkout_price_title{
+    float: right;
+    padding-right: 20px;
+    font-size: 14px;
+    color: rgb(119, 116, 116);
+    font-weight: 600;
+}
+.checkout_right{
+    float: right;
+}
